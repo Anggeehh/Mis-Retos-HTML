@@ -1,0 +1,43 @@
+
+body { 
+    background-color: rgb(228, 255, 246);
+}
+
+
+
+.cuadrados{ 
+    padding: 20px;
+    border: 2px solid black;
+    margin: 10px
+}
+
+section { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+
+footer{ 
+    padding: 20px;
+    border: 2px solid black;
+    margin: 10px
+}
+
+/* Estilos normales (para ordenador) */
+article {
+    width: 300px;
+}
+
+/* Estilos para móviles (pantallas de menos de 600px) */
+@media (max-width: 600px) {
+    article {
+        width: 100%; /* La tarjeta ocupa todo el ancho en el móvil */
+    }
+    
+    h1 {
+        font-size: 1.5rem; /* Hacemos el título un poco más pequeño */
+    }
+}
